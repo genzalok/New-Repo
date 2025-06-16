@@ -2148,7 +2148,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "ref_point":
         await query.answer(f'You Have: {referdb.get_refer_points(query.from_user.id)} Refferal points.', show_alert=True)
    
-    elif query.data == "stream_alert":Add commentMore actions
+    elif query.data == "stream_alert":
         await query.answer('This Is Only For Premium User.', show_alert=True)
 
    
