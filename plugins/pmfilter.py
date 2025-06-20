@@ -2135,7 +2135,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 📜', url='https://t.me/genzalok'),
+            InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 📜', url='https://t.me/Anonymous_rebot'),
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
